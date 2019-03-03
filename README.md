@@ -13,6 +13,6 @@ Step 3: Lambda Arch
 Uses batch processing and real-time processing to make a prediction about occupancy in the bus. Assigned weight = 0.7 to historical data and 0.3 to overall real-time data - 0.1 to each of the 3 variables
 
 
-## Determing Safe path
+## Determining Safe path
 
-Uses kmeans to cluster regions according to their safety index (crime reports for various offences). Currently creating 5 clusters.
+It is the initial step for determining the safe paths. Uses kmeans to cluster regions according to their safety index (crime reports for various offences in different regions). Currently creating 5 clusters (used elbow method for determining number of clusters).
